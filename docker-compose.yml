@@ -1,0 +1,8 @@
+services:
+  ai-model-api:
+    image: dnjs136/test1234:latest
+    container_name: ai-model-api
+    ports:
+      - "8000:8000"
+    restart: always
+
